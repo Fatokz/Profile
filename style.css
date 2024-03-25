@@ -6,8 +6,6 @@ body{
     background: aliceblue;
 }
 #main{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 320px;
     width: 40%;
@@ -16,6 +14,21 @@ body{
     margin-top: 10%;
     border-radius: 6px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#div{
+    position: absolute;
+    height: 17em;
+    width: 270px;
+    margin-left: 16.5%;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+#btns{
+    display: flex;
+    justify-content: space-between;
+}
+#btns button{
+    top: 150px;
 }
 #main button{
     /* background: aliceblue; */
@@ -26,4 +39,17 @@ body{
     border: none;
     font-size: 25px;
     cursor: pointer;
+    position: relative;
+}
+#image{
+    margin: 0;
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 50%;
+    margin: 70px 0 0 30px;
+    /* margin-left: -90%; */
+
 }
