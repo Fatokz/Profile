@@ -6,7 +6,7 @@ let index = 0
 let arrObj = [
     {
         name: 'Full Name: Fatokun Emmanuel',
-        age: 'Age: 25',
+        age: 'Age: 35',
         mail: 'E-mail: emmanuel@gmail.com',
         nationality: 'Nationality: Nigeria',
         skin: 'Skin Color: Brown',
@@ -14,32 +14,32 @@ let arrObj = [
     },
     {
         name: 'Full Name: Ariyo Esther',
-        age: 'Age: 7 ',
-        mail: 'E-mail: emmanuel@gmail.com',
-        nationality: 'Nationality: Nigeria',
-        skin: 'Skin Color: Brown',
-        image: "avatar2.png"
-    },
-    {
-        name: 'Full Name: Adeosun Damilare',
-        age: 'Age: 6 ',
-        mail: 'E-mail: emmanuel@gmail.com',
+        age: 'Age: 29 ',
+        mail: 'E-mail: esther@gmail.com',
         nationality: 'Nationality: Nigeria',
         skin: 'Skin Color: Brown',
         image: "avatar3.png"
     },
     {
+        name: 'Full Name: Adeosun Damilare',
+        age: 'Age: 33 ',
+        mail: 'E-mail: damilare@gmail.com',
+        nationality: 'Nationality: Nigeria',
+        skin: 'Skin Color: Brown',
+        image: "avatar2.png"
+    },
+    {
         name: 'Full Name: Popoola Faruq',
-        age: 'Age: 9 ',
-        mail: 'E-mail: emmanuel@gmail.com',
+        age: 'Age: 29 ',
+        mail: 'E-mail: faruq@gmail.com',
         nationality: 'Nationality: Nigeria',
         skin: 'Skin Color: Brown',
         image: "avatar6.png"
     },
     {
         name: 'Full Name: Balogun Aliyah ',
-        age: 'Age: 10 ',
-        mail: 'E-mail: emmanuel@gmail.com',
+        age: 'Age: 39 ',
+        mail: 'E-mail: aliyah@gmail.com',
         nationality: 'Nationality: Nigeria',
         skin: 'Skin Color: Brown',
         image: "avatar4.png"
