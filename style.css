@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: aliceblue;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 320px;
+    width: 40%;
+    background: white;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#main button{
+    /* background: aliceblue; */
+    background: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
