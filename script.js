@@ -6,6 +6,7 @@ let index = 0
 let arrObj = [
     {
         name: 'Full Name: Fatokun Emmanuel',
+        career: 'Career: Full Stack Developer',
         age: 'Age: 35',
         mail: 'E-mail: emmanuel@gmail.com',
         nationality: 'Nationality: Nigeria',
@@ -14,6 +15,7 @@ let arrObj = [
     },
     {
         name: 'Full Name: Ariyo Esther',
+        career: 'Career: Full Stack Developer',
         age: 'Age: 29 ',
         mail: 'E-mail: esther@gmail.com',
         nationality: 'Nationality: Nigeria',
@@ -22,6 +24,7 @@ let arrObj = [
     },
     {
         name: 'Full Name: Adeosun Damilare',
+        career: 'Career: Full Stack Developer',
         age: 'Age: 33 ',
         mail: 'E-mail: damilare@gmail.com',
         nationality: 'Nationality: Nigeria',
@@ -30,6 +33,7 @@ let arrObj = [
     },
     {
         name: 'Full Name: Popoola Faruq',
+        career: 'Career: Front End Developer',
         age: 'Age: 29 ',
         mail: 'E-mail: faruq@gmail.com',
         nationality: 'Nationality: Nigeria',
@@ -38,6 +42,7 @@ let arrObj = [
     },
     {
         name: 'Full Name: Balogun Aliyah ',
+        career: 'Career: Back End Developer',
         age: 'Age: 39 ',
         mail: 'E-mail: aliyah@gmail.com',
         nationality: 'Nationality: Nigeria',
@@ -50,6 +55,7 @@ function display() {
     img.src = arrObj[index].image
     out.innerHTML = `<h4>
     ${arrObj[index].name} <br> 
+    ${arrObj[index].career} <br> 
     ${arrObj[index].age}<br>
     ${arrObj[index].mail}<br>
     ${arrObj[index].nationality}<br>
