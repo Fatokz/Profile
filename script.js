@@ -1,19 +1,60 @@
 let out = document.getElementById("output")
 let img = document.getElementById("image")
-let index = 0 
+let index = 0
 
 
 let arrObj = [
-    { name: 'Full Name: Emmanuel', age: 'Age: 25', mail: 'E-mail: fatokunemmanuel@gmail.com' , image: "avatar7.png"},
-    { name: 'Full Name: Celeb', age: 'Age: 7 ', image: "avatar2.png" },
-    { name: 'Full Name: Ayo', age: 'Age: 6 ', image: "avatar3.png" },
-    { name: 'Full Name: Tade', age: 'Age: 9 ', image: "avatar6.png" },
-    { name: 'Full Name: Tade', age: 'Age: 10 ' , image: "avatar4.png"}
+    {
+        name: 'Full Name: Fatokun Emmanuel',
+        age: 'Age: 25',
+        mail: 'E-mail: emmanuel@gmail.com',
+        nationality: 'Nationality: Nigeria',
+        skin: 'Skin Color: Brown',
+        image: "avatar7.png"
+    },
+    {
+        name: 'Full Name: Ariyo Esther',
+        age: 'Age: 7 ',
+        mail: 'E-mail: emmanuel@gmail.com',
+        nationality: 'Nationality: Nigeria',
+        skin: 'Skin Color: Brown',
+        image: "avatar2.png"
+    },
+    {
+        name: 'Full Name: Adeosun Damilare',
+        age: 'Age: 6 ',
+        mail: 'E-mail: emmanuel@gmail.com',
+        nationality: 'Nationality: Nigeria',
+        skin: 'Skin Color: Brown',
+        image: "avatar3.png"
+    },
+    {
+        name: 'Full Name: Popoola Faruq',
+        age: 'Age: 9 ',
+        mail: 'E-mail: emmanuel@gmail.com',
+        nationality: 'Nationality: Nigeria',
+        skin: 'Skin Color: Brown',
+        image: "avatar6.png"
+    },
+    {
+        name: 'Full Name: Balogun Aliyah ',
+        age: 'Age: 10 ',
+        mail: 'E-mail: emmanuel@gmail.com',
+        nationality: 'Nationality: Nigeria',
+        skin: 'Skin Color: Brown',
+        image: "avatar4.png"
+    }
 ];
 
 function display() {
     img.src = arrObj[index].image
-    out.innerHTML = `<h3>${arrObj[index].name} <br> ${arrObj[index].age}</h3>`
+    out.innerHTML = `<h4>
+    ${arrObj[index].name} <br> 
+    ${arrObj[index].age}<br>
+    ${arrObj[index].mail}<br>
+    ${arrObj[index].nationality}<br>
+    ${arrObj[index].skin}<br>
+    </h4>`
 }
 
 display()
